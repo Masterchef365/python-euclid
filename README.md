@@ -6,7 +6,7 @@ Python module for 2D and 3D graphics-related maths functions: vectors, matrices,
 History
 -------
 
-This library was written in 2006 and [hosted on Google Code](https://code.google.com/archive/p/pyeuclid/) under an LGPL license.  It has not been maintained since.  I have relicensed the code in 2019 under a more permissive BSD license, however it is still without a maintainer.  In particular, it's unlikely this code works with Python 3 or follows modern Python conventions, or that its optimisations are still valid.
+This library was written in 2006 and [hosted on Google Code](https://code.google.com/archive/p/pyeuclid/) under an LGPL license.  Alex relicensed the code in 2019 under a more permissive BSD license.  It was updated to work with Python 3 soon after, and released as 1.0 in 2020 by the new maintainer, Richard Jones.
 
 The rest of this README is the original documentation from 2006, converted from reStructured Text to Markdown using cloudconvert.com.
 
