@@ -11,7 +11,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(name='euclid',
-      version='1.1',
+      version='1.2',
       description='2D and 3D vector, matrix, quaternion and geometry module',
       author='Alex Holkner',
       author_email='alex@partiallydisassembled.net',
