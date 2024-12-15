@@ -41,8 +41,8 @@ __version__ = '$Id: euclid.py 37 2011-08-21 22:24:05Z elfnor@gmail.com $'
 __revision__ = '$Revision: 37 $'
 
 import math
-import operator
-import types
+import _operator as operator
+#import types
 
 # Some magic here.  If _use_slots is True, the classes will derive from
 # object and will define a __slots__ class variable.  If _use_slots is
@@ -52,7 +52,7 @@ import types
 #                      of Python, "better".
 # _use_slots = False:  Ordinary classes, much faster than slots in current
 #                      versions of Python (2.4 and 2.5).
-_use_slots = True
+_use_slots = False
 
 # If True, allows components of Vector2 and Vector3 to be set via swizzling;
 # e.g.  v.xyz = (1, 2, 3).  This is much, much slower than the more verbose
